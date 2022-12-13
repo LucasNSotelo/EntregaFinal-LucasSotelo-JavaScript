@@ -1,0 +1,122 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    background: radial-gradient(circle, rgb(63, 63, 65) 0%, rgb(194, 190, 190)0%); /* BACKGROUND GRADIANT */
+}
+
+
+footer{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.titulo{
+    font-family: 'Bebas neue', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-left: 3rem;
+    color: #ffffff;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 0 #080808, 2px 2px 0 #333333, 3px 3px 0 #585858, 4px 4px 0 #808080;
+}
+
+.detallesItem{
+    height: 14rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    color: white;
+    background-color: rgba(37, 32, 32, 0.459);
+    border: solid rgba(68, 66, 66, 0.233) 0.1rem;
+}
+
+.carritoTitulo{
+    background-color: #000000;
+    color: white;
+    margin-left: 9rem;
+}
+
+.carritoCantidad{
+    width: 2.3rem;
+    padding: 0.1rem;
+    margin-left: 1rem;
+    align-self: center;
+}
+
+.eliminarItem{
+    padding: 0.1rem;
+    align-self: flex-end;
+}
+
+.carritoTotal{
+    align-self:flex-end;
+    margin-right: 1rem;
+    color: white;
+    background-color: #000000;
+}
+
+.comprarItem{
+    background-color: rgba(20, 58, 182, 0.575);
+    border: rgb(226, 159, 223);
+}
+
+
+.comprarItem:hover{
+    border-color: white;
+    color: white;
+    background-color:rgba(65, 23, 99, 0.781);
+}
+
+.oculto{
+    display: none;
+}
+
+.gridTienda{
+    display: grid;
+    height: auto;
+    width: auto;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 17rem;
+    grid-template-areas: 
+    
+    "guitarra0 guitarra1 guitarra2"
+    "bajo0 bajo1 bajo2"
+
+    
+    ;
+}
+
+.guitarra0{
+    grid-area: guitarra0;
+}
+
+.bajo0{
+    grid-area: bajo0;
+}
+
+.guitarra1{
+    grid-area: guitarra1;
+}
+
+.bajo1{
+    grid-area: bajo1;
+}
+
+.guitarra2{
+    grid-area: guitarra2;
+}
+
+.bajo3{
+    grid-area: bajo2;
+}
+
+
